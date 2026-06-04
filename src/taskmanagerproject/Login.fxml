@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<StackPane xmlns:fx="http://javafx.com/fxml"
+           fx:controller="taskmanagerproject.LoginController"
+           stylesheets="@login.css">
+
+    <VBox alignment="CENTER"
+          spacing="20"
+          maxWidth="400"
+          styleClass="login-container">
+
+        <Label text="TASK PROJECT ✓"
+               styleClass="titulo"/>
+
+        <Label text="↓Digite seu nome de usuário↓"
+               styleClass="subtitulo"/>
+
+        <TextField fx:id="campoUsuario"
+                   promptText="Nome de usuário"
+                   styleClass="campo"/>
+
+        <Button text="Entrar"
+                onAction="#entrar"
+                styleClass="botao"/>
+
+        <Button text="Fechar"
+                onAction="#fecharAplicacao"
+                styleClass="botao-fechar"/>
+
+    </VBox>
+
+</StackPane>

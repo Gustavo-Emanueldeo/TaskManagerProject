@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.Region?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.control.CheckBox?>
+<?import javafx.scene.control.TextArea?>
+
+<VBox
+    xmlns:fx="http://javafx.com/fxml"
+    spacing="10"
+    alignment="TOP_CENTER"
+    stylesheets="@estilos.css"
+    fx:controller="taskmanagerproject.TelaCadastroController"
+>
+
+    <VBox styleClass="container">
+        <Label text="Título da Atividade"/>
+
+        <TextField
+            fx:id="campoTitulo"
+            promptText="O que faremos hoje?"/>
+    </VBox>
+
+    <VBox styleClass="container">
+        <Label text="Descrição da atividade"/>
+
+        <TextArea
+            fx:id="campoDescricao"
+            promptText="Descreva a sua atividade..."
+            prefRowCount="5"
+            wrapText="true"/>
+    </VBox>
+
+    <HBox
+        spacing="10"
+        maxWidth="500"
+        alignment="CENTER">
+
+        <Button
+            text="Criar atividade"
+            prefWidth="140"
+            onAction="#salvarTask"/>
+
+        <Button
+            text="Cancelar"
+            prefWidth="120"
+            onAction="#cancelar"/>
+
+        <Button
+            text="Sair"
+            prefWidth="120"
+            onAction="#sair"/>
+
+    </HBox>
+
+</VBox>

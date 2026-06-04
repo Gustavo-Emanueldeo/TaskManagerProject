@@ -1,0 +1,213 @@
+.button {
+
+    -fx-background-color: #7c3aed;
+
+    -fx-text-fill: white;
+
+    -fx-font-size: 16px;
+
+    -fx-font-weight: bold;
+
+    -fx-background-radius: 8;
+
+    -fx-cursor: hand;
+
+}
+
+
+
+.button:hover {
+
+    -fx-background-color: #8b5cf6;
+
+}
+
+
+
+.button:pressed {
+
+    -fx-background-color: #6d28d9;
+
+}
+
+
+
+.root {
+
+    -fx-padding: 20;
+
+    -fx-spacing: 10;
+
+
+    -fx-background-image: url("TaskManagerBackgroud.png");
+
+    -fx-background-repeat: no-repeat;
+
+    -fx-background-position: center center;
+
+    -fx-background-size: cover;
+
+}
+
+
+
+.title {
+
+    -fx-font-size: 48px;
+
+    -fx-text-fill: #a855f7;
+
+    -fx-font-weight: bold;
+
+
+
+    -fx-effect: dropshadow(gaussian, rgba(0,0,0,0.8), 10, 0.3, 0, 2);
+
+}
+
+
+
+.container {
+
+    -fx-max-width: 800;
+
+
+    -fx-background-color: rgba(31, 31, 31, 0.85);
+
+
+
+    -fx-padding: 20;
+
+    -fx-background-radius: 12;
+
+
+
+    -fx-border-color: #7c3aed;
+
+    -fx-border-width: 1;
+
+    -fx-border-radius: 12;
+
+}
+
+
+
+.label {
+
+    -fx-text-fill: white;
+
+}
+
+
+
+.text-field,
+
+.text-area {
+
+    -fx-background-color: rgba(42, 42, 42, 0.9);
+
+    -fx-text-fill: white;
+
+    -fx-prompt-text-fill: #8a8a8a;
+
+    -fx-background-radius: 6;
+
+
+
+    -fx-border-color: #3f3f3f;
+
+    -fx-border-radius: 6;
+
+}
+
+
+
+.text-field:focused,
+
+.text-area:focused {
+
+    -fx-border-color: #8b5cf6;
+
+    -fx-border-width: 2;
+
+}
+
+
+
+.text-area .content {
+
+    -fx-background-color: rgba(42, 42, 42, 0.9);
+
+}
+
+
+
+.check-box {
+
+    -fx-text-fill: white;
+
+}
+
+
+
+.check-box .box {
+
+    -fx-background-color: #2a2a2a;
+
+    -fx-border-color: #7c3aed;
+
+}
+
+
+
+.task-card {
+
+    -fx-background-color: rgba(20, 20, 20, 0.85);
+
+
+
+    -fx-background-radius: 10;
+
+    -fx-padding: 10;
+
+
+
+    -fx-border-color: #7c3aed;
+
+    -fx-border-radius: 10;
+
+    -fx-border-width: 1;
+
+}
+
+
+
+.task-card:hover {
+
+    -fx-background-color: rgba(35, 35, 35, 0.9);
+
+}
+
+
+
+.scroll-pane {
+
+    -fx-background-color: transparent;
+
+}
+
+
+
+.scroll-pane > .viewport {
+
+    -fx-background-color: transparent;
+
+}
+
+
+
+.scroll-bar {
+
+    -fx-background-color: transparent;
+
+}

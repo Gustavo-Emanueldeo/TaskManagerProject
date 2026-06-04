@@ -1,0 +1,86 @@
+.root {
+    -fx-background-color: linear-gradient(
+        to bottom right,
+        #0f0f12,
+        #18181b,
+        #1f1f23
+    );
+}
+
+.login-container {
+    -fx-background-color: rgba(35,35,40,0.95);
+    -fx-padding: 40;
+    -fx-background-radius: 20;
+    -fx-border-radius: 20;
+    -fx-border-color: #7c3aed;
+    -fx-border-width: 1;
+}
+
+.titulo {
+    -fx-text-fill: white;
+    -fx-font-size: 32px;
+    -fx-font-weight: bold;
+}
+
+.subtitulo {
+    -fx-text-fill: #a1a1aa;
+    -fx-font-size: 14px;
+}
+
+.campo {
+    -fx-pref-width: 280;
+    -fx-pref-height: 40;
+
+    -fx-background-color: #2a2a31;
+    -fx-text-fill: white;
+
+    -fx-background-radius: 10;
+    -fx-border-radius: 10;
+
+    -fx-border-color: #3f3f46;
+}
+
+.campo:focused {
+    -fx-border-color: #7c3aed;
+    -fx-border-width: 2;
+}
+
+.botao {
+    -fx-pref-width: 280;
+    -fx-pref-height: 40;
+
+    -fx-background-color: #7c3aed;
+    -fx-text-fill: white;
+
+    -fx-font-size: 15px;
+    -fx-font-weight: bold;
+
+    -fx-background-radius: 10;
+
+    -fx-cursor: hand;
+}
+
+.botao:hover {
+    -fx-background-color: #8b5cf6;
+}
+
+/* Botão para fechar o aplicativo */
+
+.botao-fechar {
+    -fx-pref-width: 280;
+    -fx-pref-height: 40;
+
+    -fx-background-color: #dc2626;
+    -fx-text-fill: white;
+
+    -fx-font-size: 15px;
+    -fx-font-weight: bold;
+
+    -fx-background-radius: 10;
+
+    -fx-cursor: hand;
+}
+
+.botao-fechar:hover {
+    -fx-background-color: #ef4444;
+}
