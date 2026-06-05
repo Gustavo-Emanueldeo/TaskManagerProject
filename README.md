@@ -37,7 +37,7 @@ taskmanager_db
 Clique em Start Import
 ⚙️ Configuração do banco
 
-O usuário e senha do MySQL devem ser configurados no arquivo DBConnection.java conforme o ambiente local.
+O usuário e senha do MySQL devem ser configurados no arquivo DatabaseConnection.java conforme o ambiente local.
 
 Exemplo:
 user: root  
