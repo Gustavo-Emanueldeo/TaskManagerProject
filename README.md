@@ -80,6 +80,8 @@ Exclusão de tarefas
 O banco de dados não é online, precisa ser criado localmente
 O MySQL deve estar instalado e rodando
 O arquivo database.sql já contém toda a estrutura necessária
+O sistema de cadastro e login de usuário não utiliza sistema de senha e criptografia, os dados são salvos por Nome de Usuário (Ex1: "GustavoEmanuelDev" > Lista de atividades > Projeto
+Ex2: "Vanessa" > Lista de atividades > Academia)
 👤 Autor
 
 Projeto desenvolvido por Gustavo E
