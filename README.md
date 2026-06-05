@@ -82,9 +82,14 @@ O MySQL deve estar instalado e rodando
 O arquivo database.sql já contém toda a estrutura necessária
 O sistema de cadastro e login de usuário
 não utiliza sistema de senha e criptografia,
-os dados são salvos por Nome de Usuário
-(Ex1: "GustavoEmanuelDev" > Lista de atividades > Projeto
-Ex2: "Vanessa" > Lista de atividades > Academia)
+os dados são salvos por Nome de Usuário,
+se você entrar com um usuário
+e sair ou fechar o programa,
+suas atividades continuarão
+registradas no mesmo usuário,
+basta digitar o mesmo nome no login
+(Ex1: "GustavoEmanuelDev" > Lista de atividades > Trabalho java)
+(Ex2: "Vanessa" > Lista de atividades > Academia)
 👤 Autor
 
 Projeto desenvolvido por Gustavo E
